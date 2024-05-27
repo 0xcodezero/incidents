@@ -6,6 +6,7 @@ abstract class ApiEndpoints {
   }
 
   static const dashboard = '/dashboard';
+  static const incidents = '/incident';
 
   static List<E>? deserializeList<E>(
       List? list, E Function(dynamic j) fromJsonFunc) {
