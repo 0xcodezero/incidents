@@ -1,4 +1,10 @@
 {
   "@@locale": "ar",
-  "appTitle": "العمليات"
+  "appTitle": "العمليات",
+  "settings": "الإعدادات",
+  "settingsAppLanguage": "لغة التطبيق",
+  "settingsAppTheme": "واجهة التطبيق",
+  "settingsSystemTheme": "مطابق النظام",
+  "settingsLightTheme": "واجهات فاتحة",
+  "settingsDarkTheme": "واجهات داكنة"
 }
