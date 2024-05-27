@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "appTitle": "incidents",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "settings": "Settings",
+  "settingsAppLanguage": "Application Language",
+  "settingsAppTheme": "Application Theme",
+  "settingsSystemTheme": "System Theme",
+  "settingsLightTheme": "Light Theme",
+  "settingsDarkTheme": "Dark Theme"
+}
