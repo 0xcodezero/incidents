@@ -23,7 +23,7 @@ class SettingsView extends StatelessWidget {
           title: Text(AppLocalizations.of(context)!.settings),
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Padding(

@@ -6,5 +6,6 @@
   "settingsAppTheme": "واجهة التطبيق",
   "settingsSystemTheme": "مطابق النظام",
   "settingsLightTheme": "واجهات فاتحة",
-  "settingsDarkTheme": "واجهات داكنة"
+  "settingsDarkTheme": "واجهات داكنة",
+  "dashboard": "إحصائيات الاستخدام"
 }
