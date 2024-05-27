@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:incidents/src/dashboard/dashboard_screen.dart';
 import 'package:incidents/src/providers/localization_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'sample_feature/sample_item_details_view.dart';
-import 'sample_feature/sample_item_list_view.dart';
+import 'sample_feature/incidents_list_view.dart';
 import 'settings/settings_controller.dart';
 import 'settings/settings_view.dart';
 
@@ -78,9 +79,11 @@ class MyApp extends StatelessWidget {
                         return SettingsView(controller: settingsController);
                       case SampleItemDetailsView.routeName:
                         return const SampleItemDetailsView();
-                      case SampleItemListView.routeName:
+                      case DashboardScreen.routeName:
+                        return const DashboardScreen();
+                      case IcidentsListView.routeName:
                       default:
-                        return const SampleItemListView();
+                        return const IcidentsListView();
                     }
                   },
                 );
